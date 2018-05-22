@@ -135,3 +135,4 @@ cat heywhatsup.txt
 ## Resources
 - [Linux](https://opensource.com/resources/linux)
 - [Bash Cheatsheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
+- [Command Crash Course](https://learnpythonthehardway.org/book/appendixa.html)
