@@ -1,4 +1,4 @@
-# Live Code - The Command Line
+## The Command Line
 
 ## Let's First Confirm Set Up
 Go to your terminal or powershell and type python. If you don't see something similar to my screen come find me after class. After we are done let's exit. This is how to get into what's known as the interactive interpreter.
