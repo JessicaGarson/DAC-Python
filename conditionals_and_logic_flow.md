@@ -1,4 +1,4 @@
-## Conditionals and Comments
+## Conditionals, Logic Flow and Comments
 
 ## Operators for Comparison
 ```
