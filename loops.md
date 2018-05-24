@@ -8,7 +8,7 @@ With for loops the repeated execution of code based on a loop counter or loop va
 
 ```
 For each item:
-		do something with that item
+	do something with that item
 ```
 
 # Range
@@ -32,15 +32,19 @@ Step sets how much to increase (or decrease in the case of negative numbers) the
 for number in range(10):
 	print(number)
 ```
+
 ```python
 for number in range(1, 100, 5):
   print(number)
 ```
+
 ```python
 for number in range(100, 0, -10):
   print(number)
 ```
+
 ## For Loops + Lists  
+
 We can use a for loop to go through a list one by and do something with each item.
 
 ```python
@@ -54,7 +58,7 @@ for day in days_of_the_week:
 attendees = ['Celestino', 'Yasha', 'Hamid']
 
 for attendee in attendees:
-  print('{} is a student in this class'.format(attendee))
+  print('{} attended my volunteer training'.format(attendee))
 ```
 
 ```python
@@ -66,8 +70,7 @@ for i in range(10):
 print(integers)
 ```
 
-## There Has To Be a Better Way!
-While doing the sleep in problem on the homework, you likely noticed there might be a better way to solve it. Here is a solution with lists and loops!
+## Can I Sleep In?
 
 ```python
 days_of_the_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -119,7 +122,7 @@ while a condition is True:
 ```
 
 ```python
-bread = 35
+bread = 45
 while bread >= 2:
     print("I'm making a sandwich")
     bread = bread - 2
