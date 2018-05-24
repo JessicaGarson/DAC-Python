@@ -1,5 +1,26 @@
-# Conditions
-Conditionals are very similar to flow charts. They change our code based on behavior. 
+## Conditionals 
+
+## Operators for Comparison
+```
+==   These two things are equal
+!=	 NOT! equal to
+>	   Greater than
+<	   Less than
+>=   Greater than or equal to
+<=   Less than or equal to
+```
+
+```python
+1 == 2
+2 != 3
+5 > 4
+3 < 100
+4 >= 92
+4 <= 5
+```
+
+## Conditionals
+Conditionals are very similar to flow charts. They change our code based on behavior.
 
 ## If Statement
 The if statement evaluates whether a statement is true or false, and run code only in the case that the statement is true.
