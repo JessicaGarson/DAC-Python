@@ -127,3 +127,15 @@ while password != 'jessisthebest123!':
     print('What is the password?')
     password = input()
 ```
+
+## +=
+`a += b` is essentially the same as a = a + b, except that `+` always returns a newly allocated object, but += should (but doesn't have to) modify the object in place if it's list.
+
+In `a = a + b`  a is evaluated twice.
+
+```python
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
