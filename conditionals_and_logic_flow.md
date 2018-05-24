@@ -1,4 +1,4 @@
-## Conditionals 
+## Conditionals and Comments
 
 ## Operators for Comparison
 ```
@@ -65,4 +65,52 @@ elif space >= 15:
   print('We are almost at capacity but we have a few spaces left')
 else:
   print('Sorry, we are full')
+```
+
+## In
+The in keyword, when used with a conditional, tells you whether some text appears in a string.
+
+```python
+if 'Messica Arson' in article:
+  print('It is so awesome Jess got her DJ project in this article')
+```
+
+## And  
+Using the and keyword, both conditions must be true for the print statement to run.
+
+```python
+if homework_turned_in == 0 and homework_assigned == 1:
+  print('Jess is sad')
+```
+
+## Or
+Using the or keyword, either condition could be true for the print statement to run.
+```python
+if state == 'MD' or state == 'DC' or state == 'DE' or state == 'VA' or state == 'PA':
+  print('You are from the Mid-Atlantic region')
+```
+
+## Nested Conditionals
+```python
+if state == 'NY':
+  print('You are in NY')
+elif state == 'NJ':
+  print('You are in NJ')
+elif state == ('CT')
+  print('')
+else:
+  print('We only service the New York Region')
+
+  if state == 'PA':
+    print('You are welcome to visit us still')
+  elif state == 'CA':
+    print('Wow, that would be quite the drive')
+```
+
+## Comments
+Comments are code that doesn't run.
+
+```python
+# I am a comment, I don't run
+print('hello world!')
 ```
